@@ -25,7 +25,7 @@ bool FREditPopup::init(GJGameLevel* level, const FakeRateSaveData& data, UpdateF
     if (!Popup::init(300.0f, 200.0f)) return false;
 
     setID("FREditPopup");
-    setTitle("Fake Rate");
+    setTitle("Rate");
     m_title->setID("fake-rate-title");
     m_mainLayer->setID("main-layer");
     m_buttonMenu->setID("button-menu");
